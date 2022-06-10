@@ -1,0 +1,77 @@
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.0498255
+0.0806246
+0.0806194
+0.0498288
+0.
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.0557267
+0.0901677
+0.0901677
+0.0557267
+0.
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.05868
+0.0949462
+0.0949462
+0.05868
+0.
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.0601577
+0.0973371
+0.0973371
+0.0601577
+0.
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.0608968
+0.098533
+0.098533
+0.0608968
+0.
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.0612664
+0.0991311
+0.0991311
+0.0612664
+0.
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+======> Solving Process Done <======
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.0614512
+0.0994301
+0.0994301
+0.0614512
+0.

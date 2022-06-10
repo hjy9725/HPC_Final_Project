@@ -1,0 +1,3169 @@
+[mpiexec@ubuntu] match_arg (utils/args/args.c:160): unrecognized argument Nodes_Num
+[mpiexec@ubuntu] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ubuntu] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ubuntu] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ubuntu] main (ui/mpich/mpiexec.c:128): error parsing parameters
+[mpiexec@ubuntu] match_arg (utils/args/args.c:160): unrecognized argument Nodes_Num
+[mpiexec@ubuntu] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ubuntu] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ubuntu] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ubuntu] main (ui/mpich/mpiexec.c:128): error parsing parameters
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+Vec Object: 1 MPI processes
+  type: seq
+0.
+0.00318633
+0.00636952
+0.00954642
+0.0127139
+0.0158688
+0.0190081
+0.0221286
+0.0252273
+0.0283011
+0.0313469
+0.0343618
+0.0373428
+0.040287
+0.0431914
+0.0460531
+0.0488695
+0.0516376
+0.0543547
+0.0570182
+0.0596254
+0.0621738
+0.0646608
+0.067084
+0.069441
+0.0717295
+0.0739471
+0.0760918
+0.0781615
+0.0801539
+0.0820673
+0.0838997
+0.0856493
+0.0873143
+0.0888932
+0.0903844
+0.0917864
+0.0930977
+0.0943172
+0.0954437
+0.0964759
+0.0974129
+0.0982538
+0.0989978
+0.099644
+0.100192
+0.100641
+0.100991
+0.101241
+0.101391
+0.101441
+0.101391
+0.101241
+0.100991
+0.100641
+0.100192
+0.099644
+0.0989978
+0.0982538
+0.0974129
+0.0964759
+0.0954437
+0.0943173
+0.0930977
+0.0917864
+0.0903844
+0.0888932
+0.0873143
+0.0856493
+0.0838997
+0.0820673
+0.0801539
+0.0781615
+0.0760919
+0.0739472
+0.0717295
+0.069441
+0.067084
+0.0646608
+0.0621738
+0.0596254
+0.0570182
+0.0543547
+0.0516376
+0.0488695
+0.0460532
+0.0431914
+0.040287
+0.0373428
+0.0343618
+0.0313469
+0.0283011
+0.0252273
+0.0221286
+0.0190081
+0.0158688
+0.0127139
+0.00954642
+0.00636952
+0.00318633
+0.
+**************************************** ***********************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: -------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+./implicit on a  named ubuntu with 1 processor, by hjy Fri Jun 10 01:41:01 2022
+Using Petsc Release Version 3.17.1, Apr 28, 2022 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           5.870e-02     1.000   5.870e-02
+Objects:              4.800e+01     1.000   4.800e+01
+Flops:                8.990e+06     1.000   8.990e+06  8.990e+06
+Flops/sec:            1.532e+08     1.000   1.532e+08  1.532e+08
+Memory (bytes):       4.340e+05     1.000   4.340e+05  4.340e+05
+MPI Msg Count:        0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Msg Len (bytes):  0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Reductions:       0.000e+00     0.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 5.8685e-02 100.0%  8.9897e+06 100.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+VecView                1 1.0 1.1266e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecMDot             2831 1.0 1.5805e-03 1.0 2.52e+06 1.0 0.0e+00 0.0e+00 0.0e+00  3 28  0  0  0   3 28  0  0  0  1592
+VecNorm             3835 1.0 1.4876e-03 1.0 7.71e+05 1.0 0.0e+00 0.0e+00 0.0e+00  3  9  0  0  0   3  9  0  0  0   518
+VecScale            3835 1.0 1.1819e-03 1.0 3.87e+05 1.0 0.0e+00 0.0e+00 0.0e+00  2  4  0  0  0   2  4  0  0  0   328
+VecCopy             2004 1.0 1.3078e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   2  0  0  0  0     0
+VecSet              2004 1.0 5.9883e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0
+VecAXPY             2008 1.0 7.7588e-04 1.0 4.06e+05 1.0 0.0e+00 0.0e+00 0.0e+00  1  5  0  0  0   1  5  0  0  0   523
+VecMAXPY            3835 1.0 1.8034e-03 1.0 3.10e+06 1.0 0.0e+00 0.0e+00 0.0e+00  3 34  0  0  0   3 34  0  0  0  1720
+VecAssemblyBegin    1002 1.0 1.2963e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAssemblyEnd      1002 1.0 1.3197e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecPointwiseMult    3835 1.0 1.2175e-03 1.0 3.87e+05 1.0 0.0e+00 0.0e+00 0.0e+00  2  4  0  0  0   2  4  0  0  0   318
+VecNormalize        3835 1.0 4.6452e-03 1.0 1.16e+06 1.0 0.0e+00 0.0e+00 0.0e+00  8 13  0  0  0   8 13  0  0  0   249
+MatMult             2835 1.0 2.7280e-03 1.0 1.42e+06 1.0 0.0e+00 0.0e+00 0.0e+00  5 16  0  0  0   5 16  0  0  0   521
+MatAssemblyBegin       3 1.0 8.8600e-07 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd         3 1.0 2.9854e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSetUp               1 1.0 7.1488e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve            1000 1.0 5.0126e-02 1.0 8.79e+06 1.0 0.0e+00 0.0e+00 0.0e+00 85 98  0  0  0  85 98  0  0  0   175
+KSPGMRESOrthog      2831 1.0 1.8129e-02 1.0 5.05e+06 1.0 0.0e+00 0.0e+00 0.0e+00 31 56  0  0  0  31 56  0  0  0   278
+PCSetUp                1 1.0 3.8270e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply             3835 1.0 3.1157e-03 1.0 3.87e+05 1.0 0.0e+00 0.0e+00 0.0e+00  5  4  0  0  0   5  4  0  0  0   124
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Vector    38             38        93328     0.
+              Matrix     1              1         9028     0.
+       Krylov Solver     1              1        18872     0.
+      Preconditioner     1              1          880     0.
+    Distributed Mesh     1              1         5072     0.
+   Star Forest Graph     2              2         2128     0.
+     Discrete System     1              1          968     0.
+           Weak Form     1              1          624     0.
+              Viewer     2              1          848     0.
+========================================================================================================================
+Average time to get PetscTime(): 3.23e-08
+#PETSc Option Table entries:
+-dt 0.001
+-log_view
+-Nodes_Num 100
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-mpich=/home/hjy/Soft/petsc-3.16.6-extlibs/mpich-3.4.2.tar.gz --download-fblaslapack --with-debugging=yes --prefix=/home/hjy/Soft/petsc-3.17.1-opt --download-hypre=/home/hjy/Soft/petsc-3.16.6-extlibs/hypre-2.23.0.tar.gz --download-mumps=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-mumps-6d1470374d32.tar.gz --download-metis=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-metis-c8d2dc1e751e.tar.gz --download-hdf5=/home/hjy/Soft/petsc-3.16.6-extlibs/hdf5-1.12.1.tar.bz2 COPTFLAGS="-O3 -march=native -mtune=native" CXXOPTFLAGS="-O3 -march=native -mtune=native" FOPTFLAGS="-O3 -march=native -mtune=native" --download-scalapack --with-fc=gfortran --with-fortranlib-autodetect=1
+-----------------------------------------
+Libraries compiled on 2022-05-23 03:40:19 on ubuntu 
+Machine characteristics: Linux-5.4.0-110-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/hjy/Soft/petsc-3.17.1-opt
+Using PETSc arch: 
+-----------------------------------------
+
+Using C compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc  -Wall -Wwrite-strings -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -O3 -march=native -mtune=native   
+Using Fortran compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -O3 -march=native -mtune=native    
+-----------------------------------------
+
+Using include paths: -I/home/hjy/Soft/petsc-3.17.1-opt/include
+-----------------------------------------
+
+Using C linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc
+Using Fortran linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90
+Using libraries: -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -lpetsc -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -Wl,-rpath,/home/hjy/lib/hdf5-1.13.1/lib -L/home/hjy/lib/hdf5-1.13.1/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1 -L/home/hjy/Soft/petsc-3.17.1 -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lpthread -lscalapack -lflapack -lfblas -lpthread -lhdf5_hl -lhdf5 -lmetis -lm -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+Vec Object: 2 MPI processes
+  type: mpi
+Process [0]
+0.
+0.00159326
+0.00318613
+0.00477822
+0.00636912
+0.00795846
+0.00954583
+0.0111308
+0.0127131
+0.0142922
+0.0158678
+0.0174395
+0.0190069
+0.0205696
+0.0221272
+0.0236794
+0.0252257
+0.0267658
+0.0282993
+0.0298258
+0.031345
+0.0328564
+0.0343597
+0.0358545
+0.0373405
+0.0388173
+0.0402845
+0.0417417
+0.0431887
+0.044625
+0.0460503
+0.0474642
+0.0488664
+0.0502566
+0.0516343
+0.0529994
+0.0543513
+0.0556898
+0.0570146
+0.0583253
+0.0596217
+0.0609033
+0.0621699
+0.0634211
+0.0646568
+0.0658764
+0.0670798
+0.0682667
+0.0694367
+0.0705895
+0.071725
+0.0728428
+0.0739425
+0.0750241
+0.0760871
+0.0771314
+0.0781566
+0.0791625
+0.0801489
+0.0811156
+0.0820622
+0.0829886
+0.0838945
+0.0847797
+0.0856439
+0.0864871
+0.0873089
+0.0881092
+0.0888877
+0.0896443
+0.0903788
+0.0910909
+0.0917806
+0.0924477
+0.0930919
+0.0937132
+0.0943114
+0.0948863
+0.0954377
+0.0959657
+0.0964699
+0.0969504
+0.0974069
+0.0978394
+0.0982477
+0.0986318
+0.0989916
+0.0993269
+0.0996378
+0.099924
+0.100186
+0.100423
+0.100635
+0.100822
+0.100984
+0.101122
+0.101234
+0.101322
+0.101384
+0.101422
+0.101434
+Process [1]
+0.101422
+0.101384
+0.101322
+0.101234
+0.101122
+0.100984
+0.100822
+0.100635
+0.100423
+0.100186
+0.099924
+0.0996378
+0.0993269
+0.0989916
+0.0986318
+0.0982477
+0.0978394
+0.0974069
+0.0969504
+0.0964699
+0.0959657
+0.0954377
+0.0948863
+0.0943114
+0.0937132
+0.093092
+0.0924477
+0.0917807
+0.091091
+0.0903788
+0.0896443
+0.0888877
+0.0881092
+0.0873089
+0.0864871
+0.085644
+0.0847797
+0.0838945
+0.0829886
+0.0820622
+0.0811156
+0.080149
+0.0791626
+0.0781566
+0.0771314
+0.0760871
+0.0750241
+0.0739426
+0.0728428
+0.071725
+0.0705896
+0.0694367
+0.0682667
+0.0670798
+0.0658764
+0.0646568
+0.0634212
+0.0621699
+0.0609033
+0.0596217
+0.0583254
+0.0570146
+0.0556898
+0.0543513
+0.0529994
+0.0516344
+0.0502566
+0.0488664
+0.0474642
+0.0460503
+0.044625
+0.0431887
+0.0417417
+0.0402845
+0.0388173
+0.0373405
+0.0358545
+0.0343597
+0.0328564
+0.031345
+0.0298258
+0.0282993
+0.0267658
+0.0252257
+0.0236794
+0.0221272
+0.0205696
+0.0190069
+0.0174395
+0.0158678
+0.0142922
+0.0127131
+0.0111308
+0.00954583
+0.00795846
+0.00636912
+0.00477822
+0.00318613
+0.00159326
+0.
+**************************************** ***********************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: -------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+./implicit on a  named ubuntu with 2 processors, by hjy Fri Jun 10 01:41:35 2022
+Using Petsc Release Version 3.17.1, Apr 28, 2022 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           1.874e+01     1.000   1.874e+01
+Objects:              5.500e+01     1.000   5.500e+01
+Flops:                1.971e+07     1.010   1.961e+07  3.922e+07
+Flops/sec:            1.052e+06     1.010   1.047e+06  2.093e+06
+Memory (bytes):       4.581e+05     1.002   4.577e+05  9.155e+05
+MPI Msg Count:        7.660e+03     1.000   7.660e+03  1.532e+04
+MPI Msg Len (bytes):  6.408e+04     1.000   8.365e+00  1.282e+05
+MPI Reductions:       1.514e+05     1.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 1.8735e+01 100.0%  3.9222e+07 100.0%  1.532e+04 100.0%  8.365e+00      100.0%  1.513e+05 100.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided       1006 1.0 5.2899e-01 1.0 0.00e+00 0.0 2.0e+03 1.2e+01 2.0e+03  3  0 13 19  1   3  0 13 19  1     0
+BuildTwoSidedF      1005 1.0 1.3581e+00 1.1 0.00e+00 0.0 6.0e+03 8.8e+00 2.0e+03  7  0 39 41  1   7  0 39 41  1     0
+VecView                1 1.0 8.1550e-04 8.7 0.00e+00 0.0 1.0e+00 8.0e+02 0.0e+00  0  0  0  1  0   0  0  0  1  0     0
+VecMDot             4632 1.0 1.0303e+00 1.0 6.85e+06 1.0 0.0e+00 0.0e+00 9.3e+03  5 35  0  0  6   5 35  0  0  6    13
+VecNorm             5650 1.0 1.2374e+00 1.0 1.14e+06 1.0 0.0e+00 0.0e+00 1.1e+04  7  6  0  0  7   7  6  0  0  7     2
+VecScale            5650 1.0 9.2696e-03 1.0 5.71e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  3  0  0  0   0  3  0  0  0   123
+VecCopy             2018 1.0 2.7814e-03 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              2018 1.0 3.4973e-03 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             2036 1.0 3.4899e-03 1.1 4.11e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   235
+VecMAXPY            5650 1.0 1.4781e-02 1.0 7.82e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0 40  0  0  0   0 40  0  0  0  1053
+VecAssemblyBegin    1002 1.0 1.6505e+00 1.1 0.00e+00 0.0 6.0e+03 8.8e+00 4.0e+03  9  0 39 41  3   9  0 39 41  3     0
+VecAssemblyEnd      1002 1.0 1.3370e-01 2.9 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecPointwiseMult    5650 1.0 5.6516e-03 1.0 5.71e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  3  0  0  0   0  3  0  0  0   201
+VecScatterBegin     4650 1.0 1.3315e-01 1.0 0.00e+00 0.0 9.3e+03 8.0e+00 2.0e+00  1  0 61 58  0   1  0 61 58  0     0
+VecScatterEnd       4650 1.0 2.0570e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0
+VecNormalize        5650 1.0 1.2564e+00 1.0 1.71e+06 1.0 0.0e+00 0.0e+00 1.1e+04  7  9  0  0  7   7  9  0  0  7     3
+MatMult             4650 1.0 3.6463e-01 1.0 2.34e+06 1.0 9.3e+03 8.0e+00 2.0e+00  2 12 61 58  0   2 12 61 58  0    13
+MatAssemblyBegin       3 1.0 1.9154e-03 1.1 0.00e+00 0.0 4.0e+00 1.8e+01 1.2e+01  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd         3 1.0 4.5335e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 1.9e+01  0  0  0  0  0   0  0  0  0  0     0
+SFSetGraph             1 1.0 3.3960e-06 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFSetUp                1 1.0 4.3254e-04 1.0 0.00e+00 0.0 4.0e+00 4.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFPack              4650 1.0 3.6043e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFUnpack            4650 1.0 2.1215e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSetUp               1 1.0 1.7376e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve            1000 1.0 1.6810e+01 1.0 1.95e+07 1.0 9.3e+03 8.0e+00 1.5e+05 90 99 61 58 96  90 99 61 58 96     2
+KSPGMRESOrthog      4632 1.0 1.0693e+01 1.0 1.37e+07 1.0 0.0e+00 0.0e+00 9.6e+04 57 70  0  0 63  57 70  0  0 63     3
+PCSetUp                1 1.0 5.8220e-06 1.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply             5650 1.0 1.3947e-02 1.0 5.71e+05 1.0 0.0e+00 0.0e+00 7.0e+00  0  3  0  0  0   0  3  0  0  0    81
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Vector    40             40       101624     0.
+              Matrix     3              3        21364     0.
+           Index Set     2              2         1804     0.
+   Star Forest Graph     3              3         3336     0.
+       Krylov Solver     1              1        18872     0.
+      Preconditioner     1              1          880     0.
+    Distributed Mesh     1              1         5072     0.
+     Discrete System     1              1          968     0.
+           Weak Form     1              1          624     0.
+              Viewer     2              1          848     0.
+========================================================================================================================
+Average time to get PetscTime(): 3.47e-08
+Average time for MPI_Barrier(): 6.90958e-05
+Average time for zero size MPI_Send(): 3.5944e-05
+#PETSc Option Table entries:
+-dt 0.001
+-log_view
+-Nodes_Num 200
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-mpich=/home/hjy/Soft/petsc-3.16.6-extlibs/mpich-3.4.2.tar.gz --download-fblaslapack --with-debugging=yes --prefix=/home/hjy/Soft/petsc-3.17.1-opt --download-hypre=/home/hjy/Soft/petsc-3.16.6-extlibs/hypre-2.23.0.tar.gz --download-mumps=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-mumps-6d1470374d32.tar.gz --download-metis=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-metis-c8d2dc1e751e.tar.gz --download-hdf5=/home/hjy/Soft/petsc-3.16.6-extlibs/hdf5-1.12.1.tar.bz2 COPTFLAGS="-O3 -march=native -mtune=native" CXXOPTFLAGS="-O3 -march=native -mtune=native" FOPTFLAGS="-O3 -march=native -mtune=native" --download-scalapack --with-fc=gfortran --with-fortranlib-autodetect=1
+-----------------------------------------
+Libraries compiled on 2022-05-23 03:40:19 on ubuntu 
+Machine characteristics: Linux-5.4.0-110-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/hjy/Soft/petsc-3.17.1-opt
+Using PETSc arch: 
+-----------------------------------------
+
+Using C compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc  -Wall -Wwrite-strings -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -O3 -march=native -mtune=native   
+Using Fortran compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -O3 -march=native -mtune=native    
+-----------------------------------------
+
+Using include paths: -I/home/hjy/Soft/petsc-3.17.1-opt/include
+-----------------------------------------
+
+Using C linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc
+Using Fortran linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90
+Using libraries: -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -lpetsc -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -Wl,-rpath,/home/hjy/lib/hdf5-1.13.1/lib -L/home/hjy/lib/hdf5-1.13.1/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1 -L/home/hjy/Soft/petsc-3.17.1 -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lpthread -lscalapack -lflapack -lfblas -lpthread -lhdf5_hl -lhdf5 -lmetis -lm -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+Vec Object: 3 MPI processes
+  type: mpi
+Process [0]
+0.
+0.00106219
+0.00212426
+0.0031861
+0.00424759
+0.00530861
+0.00636905
+0.00742879
+0.00848772
+0.00954572
+0.0106027
+0.0116585
+0.012713
+0.0137661
+0.0148177
+0.0158677
+0.0169159
+0.0179623
+0.0190067
+0.020049
+0.0210892
+0.022127
+0.0231624
+0.0241952
+0.0252254
+0.0262529
+0.0272774
+0.028299
+0.0293174
+0.0303327
+0.0313446
+0.0323531
+0.033358
+0.0343593
+0.0353568
+0.0363504
+0.0373401
+0.0383256
+0.039307
+0.040284
+0.0412566
+0.0422247
+0.0431882
+0.0441469
+0.0451008
+0.0460497
+0.0469936
+0.0479324
+0.0488659
+0.049794
+0.0507166
+0.0516337
+0.0525452
+0.0534509
+0.0543507
+0.0552445
+0.0561323
+0.057014
+0.0578894
+0.0587584
+0.059621
+0.060477
+0.0613265
+0.0621692
+0.0630051
+0.063834
+0.064656
+0.0654709
+0.0662786
+0.067079
+0.0678721
+0.0686578
+0.0694359
+0.0702064
+0.0709692
+0.0717242
+0.0724713
+0.0732105
+0.0739417
+0.0746647
+0.0753796
+0.0760862
+0.0767845
+0.0774743
+0.0781557
+0.0788285
+0.0794926
+0.080148
+0.0807947
+0.0814324
+0.0820613
+0.0826811
+0.0832919
+0.0838935
+0.0844859
+0.0850691
+0.085643
+0.0862074
+0.0867624
+0.0873079
+0.0878438
+Process [1]
+0.0883701
+0.0888867
+0.0893935
+0.0898905
+0.0903777
+0.090855
+0.0913223
+0.0917796
+0.0922268
+0.0926639
+0.0930909
+0.0935076
+0.0939141
+0.0943103
+0.0946961
+0.0950716
+0.0954366
+0.0957912
+0.0961353
+0.0964688
+0.0967917
+0.0971041
+0.0974058
+0.0976968
+0.097977
+0.0982466
+0.0985054
+0.0987533
+0.0989905
+0.0992167
+0.0994321
+0.0996366
+0.0998302
+0.100013
+0.100184
+0.100345
+0.100495
+0.100633
+0.100761
+0.100878
+0.100983
+0.101078
+0.101161
+0.101233
+0.101294
+0.101344
+0.101383
+0.101411
+0.101428
+0.101433
+0.101428
+0.101411
+0.101383
+0.101344
+0.101294
+0.101233
+0.101161
+0.101078
+0.100983
+0.100878
+0.100761
+0.100633
+0.100495
+0.100345
+0.100184
+0.100013
+0.0998302
+0.0996366
+0.0994321
+0.0992167
+0.0989905
+0.0987533
+0.0985054
+0.0982466
+0.097977
+0.0976968
+0.0974058
+0.0971041
+0.0967918
+0.0964688
+0.0961353
+0.0957912
+0.0954366
+0.0950716
+0.0946961
+0.0943103
+0.0939141
+0.0935076
+0.0930909
+0.0926639
+0.0922268
+0.0917796
+0.0913223
+0.090855
+0.0903777
+0.0898906
+0.0893935
+0.0888867
+0.0883701
+0.0878438
+Process [2]
+0.0873079
+0.0867624
+0.0862074
+0.085643
+0.0850691
+0.084486
+0.0838935
+0.0832919
+0.0826811
+0.0820613
+0.0814324
+0.0807947
+0.080148
+0.0794926
+0.0788285
+0.0781557
+0.0774744
+0.0767845
+0.0760862
+0.0753796
+0.0746648
+0.0739417
+0.0732105
+0.0724713
+0.0717242
+0.0709692
+0.0702064
+0.0694359
+0.0686578
+0.0678721
+0.0670791
+0.0662786
+0.0654709
+0.064656
+0.0638341
+0.0630051
+0.0621692
+0.0613265
+0.0604771
+0.059621
+0.0587584
+0.0578894
+0.057014
+0.0561323
+0.0552445
+0.0543507
+0.0534509
+0.0525452
+0.0516338
+0.0507167
+0.049794
+0.0488659
+0.0479324
+0.0469937
+0.0460498
+0.0451008
+0.0441469
+0.0431882
+0.0422247
+0.0412566
+0.040284
+0.039307
+0.0383256
+0.0373401
+0.0363504
+0.0353568
+0.0343593
+0.033358
+0.0323531
+0.0313446
+0.0303327
+0.0293175
+0.028299
+0.0272774
+0.0262529
+0.0252254
+0.0241952
+0.0231624
+0.022127
+0.0210892
+0.020049
+0.0190067
+0.0179623
+0.0169159
+0.0158677
+0.0148177
+0.0137661
+0.012713
+0.0116585
+0.0106027
+0.00954572
+0.00848772
+0.00742879
+0.00636905
+0.00530861
+0.00424759
+0.0031861
+0.00212426
+0.00106219
+0.
+**************************************** ***********************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: -------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+./implicit on a  named ubuntu with 3 processors, by hjy Fri Jun 10 01:43:10 2022
+Using Petsc Release Version 3.17.1, Apr 28, 2022 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           5.826e+01     1.000   5.826e+01
+Objects:              5.500e+01     1.000   5.500e+01
+Flops:                3.296e+07     1.010   3.274e+07  9.823e+07
+Flops/sec:            5.658e+05     1.010   5.621e+05  1.686e+06
+Memory (bytes):       4.595e+05     1.002   4.590e+05  1.377e+06
+MPI Msg Count:        1.613e+04     1.457   1.276e+04  3.827e+04
+MPI Msg Len (bytes):  1.342e+05     1.431   8.417e+00  3.221e+05
+MPI Reductions:       2.332e+05     1.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 5.8255e+01 100.0%  9.8233e+07 100.0%  3.827e+04 100.0%  8.417e+00      100.0%  2.332e+05 100.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided       1006 1.0 1.1039e+00 1.3 0.00e+00 0.0 4.0e+03 1.2e+01 2.0e+03  2  0 11 15  1   2  0 11 15  1     0
+BuildTwoSidedF      1005 1.0 2.0291e+00 1.2 0.00e+00 0.0 1.2e+04 9.2e+00 2.0e+03  3  0 31 34  1   3  0 31 34  1     0
+VecView                1 1.0 8.0654e-0421.4 0.00e+00 0.0 2.0e+00 8.0e+02 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecMDot             6510 1.0 3.2343e+00 1.1 1.24e+07 1.0 0.0e+00 0.0e+00 1.3e+04  5 38  0  0  6   5 38  0  0  6    11
+VecNorm             7555 1.0 4.1322e+00 1.2 1.53e+06 1.0 0.0e+00 0.0e+00 1.5e+04  6  5  0  0  6   6  5  0  0  6     1
+VecScale            7555 1.0 1.4622e-02 1.2 7.63e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   156
+VecCopy             2045 1.0 3.0017e-03 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              2045 1.0 3.9242e-03 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             2090 1.0 3.9797e-03 1.2 4.22e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   316
+VecMAXPY            7555 1.0 2.6210e-02 1.2 1.38e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 42  0  0  0   0 42  0  0  0  1567
+VecAssemblyBegin    1002 1.0 2.5801e+00 1.2 0.00e+00 0.0 1.2e+04 9.2e+00 4.0e+03  4  0 31 34  2   4  0 31 34  2     0
+VecAssemblyEnd      1002 1.0 3.8861e-0149.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecPointwiseMult    7555 1.0 8.6920e-03 1.2 7.63e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   262
+VecScatterBegin     6555 1.0 2.3800e-01 1.5 0.00e+00 0.0 2.6e+04 8.0e+00 2.0e+00  0  0 69 65  0   0  0 69 65  0     0
+VecScatterEnd       6555 1.0 7.9281e-01 9.6 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0
+VecNormalize        7555 1.0 4.1591e+00 1.2 2.29e+06 1.0 0.0e+00 0.0e+00 1.5e+04  6  7  0  0  6   6  7  0  0  6     2
+MatMult             6555 1.0 1.0758e+00 3.3 3.30e+06 1.0 2.6e+04 8.0e+00 2.0e+00  1 10 69 65  0   1 10 69 65  0     9
+MatAssemblyBegin       3 1.0 4.5785e-03 1.1 0.00e+00 0.0 8.0e+00 1.8e+01 1.2e+01  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd         3 1.0 7.2941e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 1.9e+01  0  0  0  0  0   0  0  0  0  0     0
+SFSetGraph             1 1.0 6.1880e-06 2.8 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFSetUp                1 1.0 6.7548e-04 1.1 0.00e+00 0.0 8.0e+00 4.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFPack              6555 1.0 8.3100e-03 1.8 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFUnpack            6555 1.0 2.8122e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSetUp               1 1.0 3.5547e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve            1000 1.0 5.5179e+01 1.0 3.28e+07 1.0 2.6e+04 8.0e+00 2.3e+05 94 99 69 65 97  94 99 69 65 97     2
+KSPGMRESOrthog      6510 1.0 3.9269e+01 1.0 2.49e+07 1.0 0.0e+00 0.0e+00 1.6e+05 66 75  0  0 70  66 75  0  0 70     2
+PCSetUp                1 1.0 5.2600e-06 1.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply             7555 1.0 2.1386e-02 1.2 7.63e+05 1.0 0.0e+00 0.0e+00 7.0e+00  0  2  0  0  0   0  2  0  0  0   106
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Vector    40             40       101624     0.
+              Matrix     3              3        21364     0.
+           Index Set     2              2         1804     0.
+   Star Forest Graph     3              3         3336     0.
+       Krylov Solver     1              1        18872     0.
+      Preconditioner     1              1          880     0.
+    Distributed Mesh     1              1         5072     0.
+     Discrete System     1              1          968     0.
+           Weak Form     1              1          624     0.
+              Viewer     2              1          848     0.
+========================================================================================================================
+Average time to get PetscTime(): 3.87e-08
+Average time for MPI_Barrier(): 7.64376e-05
+Average time for zero size MPI_Send(): 3.78933e-05
+#PETSc Option Table entries:
+-dt 0.001
+-log_view
+-Nodes_Num 300
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-mpich=/home/hjy/Soft/petsc-3.16.6-extlibs/mpich-3.4.2.tar.gz --download-fblaslapack --with-debugging=yes --prefix=/home/hjy/Soft/petsc-3.17.1-opt --download-hypre=/home/hjy/Soft/petsc-3.16.6-extlibs/hypre-2.23.0.tar.gz --download-mumps=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-mumps-6d1470374d32.tar.gz --download-metis=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-metis-c8d2dc1e751e.tar.gz --download-hdf5=/home/hjy/Soft/petsc-3.16.6-extlibs/hdf5-1.12.1.tar.bz2 COPTFLAGS="-O3 -march=native -mtune=native" CXXOPTFLAGS="-O3 -march=native -mtune=native" FOPTFLAGS="-O3 -march=native -mtune=native" --download-scalapack --with-fc=gfortran --with-fortranlib-autodetect=1
+-----------------------------------------
+Libraries compiled on 2022-05-23 03:40:19 on ubuntu 
+Machine characteristics: Linux-5.4.0-110-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/hjy/Soft/petsc-3.17.1-opt
+Using PETSc arch: 
+-----------------------------------------
+
+Using C compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc  -Wall -Wwrite-strings -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -O3 -march=native -mtune=native   
+Using Fortran compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -O3 -march=native -mtune=native    
+-----------------------------------------
+
+Using include paths: -I/home/hjy/Soft/petsc-3.17.1-opt/include
+-----------------------------------------
+
+Using C linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc
+Using Fortran linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90
+Using libraries: -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -lpetsc -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -Wl,-rpath,/home/hjy/lib/hdf5-1.13.1/lib -L/home/hjy/lib/hdf5-1.13.1/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1 -L/home/hjy/Soft/petsc-3.17.1 -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lpthread -lscalapack -lflapack -lfblas -lpthread -lhdf5_hl -lhdf5 -lmetis -lm -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+Vec Object: 4 MPI processes
+  type: mpi
+Process [0]
+0.
+0.000796644
+0.00159324
+0.00238973
+0.00318608
+0.00398224
+0.00477814
+0.00557375
+0.00636902
+0.0071639
+0.00795833
+0.00875227
+0.00954568
+0.0103385
+0.0111307
+0.0119222
+0.0127129
+0.0135029
+0.014292
+0.0150803
+0.0158676
+0.0166539
+0.0174393
+0.0182235
+0.0190066
+0.0197886
+0.0205693
+0.0213488
+0.0221269
+0.0229037
+0.023679
+0.0244529
+0.0252253
+0.0259962
+0.0267654
+0.027533
+0.0282989
+0.029063
+0.0298254
+0.0305859
+0.0313445
+0.0321012
+0.0328559
+0.0336086
+0.0343592
+0.0351076
+0.035854
+0.0365981
+0.0373399
+0.0380795
+0.0388167
+0.0395515
+0.0402839
+0.0410137
+0.0417411
+0.0424659
+0.043188
+0.0439075
+0.0446243
+0.0453383
+0.0460496
+0.046758
+0.0474635
+0.048166
+0.0488657
+0.0495623
+0.0502558
+0.0509462
+0.0516335
+0.0523176
+0.0529985
+0.0536761
+0.0543505
+0.0550214
+0.055689
+0.0563531
+0.0570137
+0.0576709
+0.0583244
+0.0589744
+0.0596207
+0.0602634
+0.0609024
+0.0615375
+0.0621689
+0.0627965
+0.0634202
+0.0640399
+0.0646558
+0.0652676
+0.0658754
+0.0664791
+0.0670788
+0.0676743
+0.0682656
+0.0688527
+0.0694356
+0.0700142
+0.0705884
+0.0711584
+0.0717239
+Process [1]
+0.072285
+0.0728416
+0.0733938
+0.0739414
+0.0744844
+0.0750229
+0.0755567
+0.0760859
+0.0766104
+0.0771302
+0.0776452
+0.0781554
+0.0786608
+0.0791613
+0.079657
+0.0801477
+0.0806335
+0.0811143
+0.0815901
+0.0820609
+0.0825266
+0.0829873
+0.0834428
+0.0838932
+0.0843384
+0.0847783
+0.0852131
+0.0856426
+0.0860668
+0.0864857
+0.0868993
+0.0873075
+0.0877104
+0.0881078
+0.0884998
+0.0888863
+0.0892674
+0.0896429
+0.0900129
+0.0903774
+0.0907362
+0.0910895
+0.0914372
+0.0917792
+0.0921156
+0.0924463
+0.0927712
+0.0930905
+0.093404
+0.0937118
+0.0940137
+0.0943099
+0.0946003
+0.0948848
+0.0951635
+0.0954363
+0.0957032
+0.0959642
+0.0962193
+0.0964684
+0.0967116
+0.0969488
+0.0971801
+0.0974054
+0.0976246
+0.0978378
+0.098045
+0.0982462
+0.0984413
+0.0986303
+0.0988132
+0.0989901
+0.0991608
+0.0993254
+0.0994839
+0.0996362
+0.0997824
+0.0999225
+0.100056
+0.100184
+0.100306
+0.100421
+0.10053
+0.100633
+0.10073
+0.10082
+0.100905
+0.100983
+0.101055
+0.10112
+0.10118
+0.101233
+0.10128
+0.10132
+0.101355
+0.101383
+0.101405
+0.10142
+0.10143
+0.101433
+Process [2]
+0.10143
+0.10142
+0.101405
+0.101383
+0.101355
+0.10132
+0.10128
+0.101233
+0.10118
+0.10112
+0.101055
+0.100983
+0.100905
+0.10082
+0.10073
+0.100633
+0.10053
+0.100421
+0.100306
+0.100184
+0.100056
+0.0999225
+0.0997824
+0.0996362
+0.0994839
+0.0993254
+0.0991608
+0.0989901
+0.0988132
+0.0986303
+0.0984413
+0.0982462
+0.098045
+0.0978379
+0.0976246
+0.0974054
+0.0971801
+0.0969489
+0.0967116
+0.0964684
+0.0962193
+0.0959642
+0.0957032
+0.0954363
+0.0951635
+0.0948848
+0.0946003
+0.0943099
+0.0940138
+0.0937118
+0.093404
+0.0930905
+0.0927713
+0.0924463
+0.0921156
+0.0917792
+0.0914372
+0.0910895
+0.0907363
+0.0903774
+0.0900129
+0.0896429
+0.0892674
+0.0888863
+0.0884998
+0.0881078
+0.0877104
+0.0873076
+0.0868993
+0.0864858
+0.0860669
+0.0856426
+0.0852131
+0.0847784
+0.0843384
+0.0838932
+0.0834428
+0.0829873
+0.0825267
+0.0820609
+0.0815902
+0.0811143
+0.0806335
+0.0801477
+0.079657
+0.0791613
+0.0786608
+0.0781554
+0.0776452
+0.0771302
+0.0766104
+0.0760859
+0.0755568
+0.0750229
+0.0744845
+0.0739414
+0.0733938
+0.0728416
+0.072285
+0.0717239
+Process [3]
+0.0711584
+0.0705885
+0.0700142
+0.0694356
+0.0688527
+0.0682656
+0.0676743
+0.0670788
+0.0664791
+0.0658754
+0.0652676
+0.0646558
+0.0640399
+0.0634202
+0.0627965
+0.0621689
+0.0615376
+0.0609024
+0.0602634
+0.0596208
+0.0589744
+0.0583245
+0.0576709
+0.0570137
+0.0563531
+0.055689
+0.0550214
+0.0543505
+0.0536762
+0.0529985
+0.0523177
+0.0516335
+0.0509463
+0.0502558
+0.0495623
+0.0488657
+0.0481661
+0.0474635
+0.046758
+0.0460496
+0.0453383
+0.0446243
+0.0439075
+0.043188
+0.0424659
+0.0417411
+0.0410137
+0.0402839
+0.0395515
+0.0388167
+0.0380795
+0.0373399
+0.0365981
+0.035854
+0.0351077
+0.0343592
+0.0336086
+0.0328559
+0.0321012
+0.0313445
+0.0305859
+0.0298254
+0.029063
+0.0282989
+0.027533
+0.0267654
+0.0259962
+0.0252253
+0.0244529
+0.023679
+0.0229037
+0.0221269
+0.0213488
+0.0205693
+0.0197886
+0.0190066
+0.0182235
+0.0174393
+0.0166539
+0.0158676
+0.0150803
+0.014292
+0.0135029
+0.0127129
+0.0119222
+0.0111307
+0.0103385
+0.00954568
+0.00875228
+0.00795833
+0.0071639
+0.00636902
+0.00557376
+0.00477814
+0.00398224
+0.00318608
+0.00238974
+0.00159324
+0.000796644
+0.
+**************************************** ***********************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: -------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+./implicit on a  named ubuntu with 4 processors, by hjy Fri Jun 10 01:47:16 2022
+Using Petsc Release Version 3.17.1, Apr 28, 2022 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           8.226e+01     1.000   8.226e+01
+Objects:              5.500e+01     1.000   5.500e+01
+Flops:                4.706e+07     1.010   4.672e+07  1.869e+08
+Flops/sec:            5.721e+05     1.010   5.679e+05  2.272e+06
+Memory (bytes):       4.609e+05     1.002   4.604e+05  1.842e+06
+MPI Msg Count:        2.007e+04     1.380   1.731e+04  6.924e+04
+MPI Msg Len (bytes):  1.681e+05     1.356   8.448e+00  5.849e+05
+MPI Reductions:       3.197e+05     1.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 8.2264e+01 100.0%  1.8687e+08 100.0%  6.924e+04 100.0%  8.448e+00      100.0%  3.197e+05 100.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided       1006 1.0 7.8675e-01 1.2 0.00e+00 0.0 6.0e+03 1.2e+01 2.0e+03  1  0  9 12  1   1  0  9 12  1     0
+BuildTwoSidedF      1005 1.0 1.4457e+00 1.1 0.00e+00 0.0 1.8e+04 9.6e+00 2.0e+03  2  0 26 30  1   2  0 26 30  1     0
+VecView                1 1.0 7.6805e-0425.4 0.00e+00 0.0 3.0e+00 8.0e+02 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecMDot             8417 1.0 4.3432e+00 1.0 1.83e+07 1.0 0.0e+00 0.0e+00 1.7e+04  5 39  0  0  5   5 39  0  0  5    17
+VecNorm             9523 1.0 4.2600e+00 1.0 1.92e+06 1.0 0.0e+00 0.0e+00 1.9e+04  5  4  0  0  6   5  4  0  0  6     2
+VecScale            9523 1.0 1.7705e-02 1.1 9.62e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   216
+VecCopy             2106 1.0 2.7898e-03 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              2106 1.0 3.5129e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             2212 1.0 3.7300e-03 1.1 4.47e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   476
+VecMAXPY            9523 1.0 3.4712e-02 1.0 2.01e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 43  0  0  0   0 43  0  0  0  2303
+VecAssemblyBegin    1002 1.0 1.8167e+00 1.1 0.00e+00 0.0 1.8e+04 9.6e+00 4.0e+03  2  0 26 30  1   2  0 26 30  1     0
+VecAssemblyEnd      1002 1.0 5.8035e-0212.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecPointwiseMult    9523 1.0 1.0419e-02 1.1 9.62e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   367
+VecScatterBegin     8523 1.0 2.9600e-01 1.4 0.00e+00 0.0 5.1e+04 8.0e+00 2.0e+00  0  0 74 70  0   0  0 74 70  0     0
+VecScatterEnd       8523 1.0 7.6493e-01 1.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0
+VecNormalize        9523 1.0 4.2953e+00 1.0 2.89e+06 1.0 0.0e+00 0.0e+00 1.9e+04  5  6  0  0  6   5  6  0  0  6     3
+MatMult             8523 1.0 1.1163e+00 1.5 4.29e+06 1.0 5.1e+04 8.0e+00 2.0e+00  1  9 74 70  0   1  9 74 70  0    15
+MatAssemblyBegin       3 1.0 4.5907e-03 1.1 0.00e+00 0.0 1.2e+01 1.8e+01 1.2e+01  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd         3 1.0 3.7684e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 1.9e+01  0  0  0  0  0   0  0  0  0  0     0
+SFSetGraph             1 1.0 2.4580e-06 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFSetUp                1 1.0 2.3247e-03 1.1 0.00e+00 0.0 1.2e+01 4.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFPack              8523 1.0 1.0858e-02 1.7 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFUnpack            8523 1.0 3.5257e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSetUp               1 1.0 4.0604e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve            1000 1.0 8.0049e+01 1.0 4.69e+07 1.0 5.1e+04 8.0e+00 3.1e+05 97100 74 70 98  97100 74 70 98     2
+KSPGMRESOrthog      8417 1.0 6.0874e+01 1.0 3.68e+07 1.0 0.0e+00 0.0e+00 2.3e+05 74 78  0  0 73  74 78  0  0 73     2
+PCSetUp                1 1.0 7.1270e-06 2.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply             9523 1.0 2.5103e-02 1.0 9.62e+05 1.0 0.0e+00 0.0e+00 7.0e+00  0  2  0  0  0   0  2  0  0  0   152
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Vector    40             40       101624     0.
+              Matrix     3              3        21364     0.
+           Index Set     2              2         1804     0.
+   Star Forest Graph     3              3         3336     0.
+       Krylov Solver     1              1        18872     0.
+      Preconditioner     1              1          880     0.
+    Distributed Mesh     1              1         5072     0.
+     Discrete System     1              1          968     0.
+           Weak Form     1              1          624     0.
+              Viewer     2              1          848     0.
+========================================================================================================================
+Average time to get PetscTime(): 3.59e-08
+Average time for MPI_Barrier(): 0.000211762
+Average time for zero size MPI_Send(): 3.60513e-05
+#PETSc Option Table entries:
+-dt 0.001
+-log_view
+-Nodes_Num 400
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-mpich=/home/hjy/Soft/petsc-3.16.6-extlibs/mpich-3.4.2.tar.gz --download-fblaslapack --with-debugging=yes --prefix=/home/hjy/Soft/petsc-3.17.1-opt --download-hypre=/home/hjy/Soft/petsc-3.16.6-extlibs/hypre-2.23.0.tar.gz --download-mumps=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-mumps-6d1470374d32.tar.gz --download-metis=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-metis-c8d2dc1e751e.tar.gz --download-hdf5=/home/hjy/Soft/petsc-3.16.6-extlibs/hdf5-1.12.1.tar.bz2 COPTFLAGS="-O3 -march=native -mtune=native" CXXOPTFLAGS="-O3 -march=native -mtune=native" FOPTFLAGS="-O3 -march=native -mtune=native" --download-scalapack --with-fc=gfortran --with-fortranlib-autodetect=1
+-----------------------------------------
+Libraries compiled on 2022-05-23 03:40:19 on ubuntu 
+Machine characteristics: Linux-5.4.0-110-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/hjy/Soft/petsc-3.17.1-opt
+Using PETSc arch: 
+-----------------------------------------
+
+Using C compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc  -Wall -Wwrite-strings -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -O3 -march=native -mtune=native   
+Using Fortran compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -O3 -march=native -mtune=native    
+-----------------------------------------
+
+Using include paths: -I/home/hjy/Soft/petsc-3.17.1-opt/include
+-----------------------------------------
+
+Using C linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc
+Using Fortran linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90
+Using libraries: -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -lpetsc -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -Wl,-rpath,/home/hjy/lib/hdf5-1.13.1/lib -L/home/hjy/lib/hdf5-1.13.1/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1 -L/home/hjy/Soft/petsc-3.17.1 -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lpthread -lscalapack -lflapack -lfblas -lpthread -lhdf5_hl -lhdf5 -lmetis -lm -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+Vec Object: 5 MPI processes
+  type: mpi
+Process [0]
+0.
+0.000637316
+0.00127461
+0.00191185
+0.00254901
+0.00318608
+0.00382302
+0.0044598
+0.00509642
+0.00573283
+0.00636901
+0.00700494
+0.0076406
+0.00827595
+0.00891098
+0.00954566
+0.01018
+0.0108139
+0.0114473
+0.0120803
+0.0127129
+0.0133449
+0.0139764
+0.0146074
+0.0152378
+0.0158676
+0.0164967
+0.0171252
+0.0177531
+0.0183802
+0.0190066
+0.0196322
+0.0202571
+0.0208812
+0.0215045
+0.0221269
+0.0227484
+0.023369
+0.0239887
+0.0246075
+0.0252253
+0.0258421
+0.0264579
+0.0270726
+0.0276862
+0.0282988
+0.0289103
+0.0295206
+0.0301297
+0.0307377
+0.0313444
+0.0319499
+0.0325542
+0.0331571
+0.0337588
+0.0343591
+0.0349581
+0.0355556
+0.0361518
+0.0367466
+0.0373399
+0.0379317
+0.038522
+0.0391108
+0.0396981
+0.0402838
+0.0408679
+0.0414504
+0.0420312
+0.0426104
+0.0431879
+0.0437637
+0.0443378
+0.0449102
+0.0454807
+0.0460495
+0.0466164
+0.0471815
+0.0477448
+0.0483061
+0.0488656
+0.0494231
+0.0499787
+0.0505323
+0.0510839
+0.0516334
+0.052181
+0.0527265
+0.0532699
+0.0538112
+0.0543504
+0.0548874
+0.0554222
+0.0559549
+0.0564854
+0.0570136
+0.0575396
+0.0580633
+0.0585848
+0.0591039
+0.0596206
+Process [1]
+0.0601351
+0.0606471
+0.0611568
+0.061664
+0.0621688
+0.0626712
+0.063171
+0.0636684
+0.0641633
+0.0646556
+0.0651454
+0.0656326
+0.0661172
+0.0665993
+0.0670786
+0.0675554
+0.0680294
+0.0685008
+0.0689695
+0.0694355
+0.0698987
+0.0703591
+0.0708168
+0.0712717
+0.0717237
+0.072173
+0.0726194
+0.0730629
+0.0735035
+0.0739412
+0.0743761
+0.0748079
+0.0752369
+0.0756628
+0.0760858
+0.0765057
+0.0769227
+0.0773366
+0.0777474
+0.0781552
+0.0785599
+0.0789615
+0.07936
+0.0797554
+0.0801476
+0.0805366
+0.0809224
+0.0813051
+0.0816845
+0.0820608
+0.0824338
+0.0828035
+0.08317
+0.0835331
+0.083893
+0.0842496
+0.0846028
+0.0849527
+0.0852993
+0.0856425
+0.0859823
+0.0863187
+0.0866517
+0.0869812
+0.0873074
+0.0876301
+0.0879493
+0.0882651
+0.0885774
+0.0888861
+0.0891914
+0.0894932
+0.0897914
+0.0900861
+0.0903772
+0.0906647
+0.0909487
+0.0912291
+0.0915059
+0.091779
+0.0920486
+0.0923145
+0.0925768
+0.0928354
+0.0930903
+0.0933416
+0.0935892
+0.0938331
+0.0940733
+0.0943097
+0.0945425
+0.0947715
+0.0949968
+0.0952183
+0.0954361
+0.0956501
+0.0958603
+0.0960667
+0.0962694
+0.0964682
+Process [2]
+0.0966633
+0.0968545
+0.0970419
+0.0972255
+0.0974052
+0.0975811
+0.0977531
+0.0979213
+0.0980856
+0.098246
+0.0984026
+0.0985552
+0.098704
+0.0988489
+0.0989899
+0.0991269
+0.0992601
+0.0993893
+0.0995147
+0.099636
+0.0997535
+0.099867
+0.0999766
+0.100082
+0.100184
+0.100282
+0.100375
+0.100465
+0.100551
+0.100633
+0.100711
+0.100785
+0.100855
+0.100921
+0.100983
+0.101041
+0.101095
+0.101145
+0.101191
+0.101233
+0.101271
+0.101305
+0.101335
+0.101361
+0.101383
+0.101401
+0.101415
+0.101425
+0.101431
+0.101433
+0.101431
+0.101425
+0.101415
+0.101401
+0.101383
+0.101361
+0.101335
+0.101305
+0.101271
+0.101233
+0.101191
+0.101145
+0.101095
+0.101041
+0.100983
+0.100921
+0.100855
+0.100785
+0.100711
+0.100633
+0.100551
+0.100465
+0.100375
+0.100282
+0.100184
+0.100082
+0.0999766
+0.099867
+0.0997535
+0.0996361
+0.0995147
+0.0993893
+0.0992601
+0.0991269
+0.0989899
+0.0988489
+0.098704
+0.0985552
+0.0984026
+0.098246
+0.0980856
+0.0979213
+0.0977531
+0.0975811
+0.0974052
+0.0972255
+0.0970419
+0.0968545
+0.0966633
+0.0964682
+Process [3]
+0.0962694
+0.0960667
+0.0958603
+0.0956501
+0.0954361
+0.0952183
+0.0949968
+0.0947715
+0.0945425
+0.0943097
+0.0940733
+0.0938331
+0.0935892
+0.0933416
+0.0930903
+0.0928354
+0.0925768
+0.0923145
+0.0920486
+0.0917791
+0.0915059
+0.0912291
+0.0909487
+0.0906648
+0.0903772
+0.0900861
+0.0897914
+0.0894932
+0.0891914
+0.0888862
+0.0885774
+0.0882651
+0.0879493
+0.0876301
+0.0873074
+0.0869813
+0.0866517
+0.0863187
+0.0859823
+0.0856425
+0.0852993
+0.0849527
+0.0846028
+0.0842496
+0.083893
+0.0835331
+0.08317
+0.0828035
+0.0824338
+0.0820608
+0.0816846
+0.0813051
+0.0809225
+0.0805366
+0.0801476
+0.0797554
+0.07936
+0.0789615
+0.0785599
+0.0781552
+0.0777475
+0.0773366
+0.0769227
+0.0765058
+0.0760858
+0.0756628
+0.0752369
+0.074808
+0.0743761
+0.0739413
+0.0735035
+0.0730629
+0.0726194
+0.072173
+0.0717238
+0.0712717
+0.0708168
+0.0703591
+0.0698987
+0.0694355
+0.0689695
+0.0685008
+0.0680295
+0.0675554
+0.0670787
+0.0665993
+0.0661173
+0.0656326
+0.0651454
+0.0646556
+0.0641633
+0.0636684
+0.0631711
+0.0626712
+0.0621688
+0.061664
+0.0611568
+0.0606471
+0.0601351
+0.0596207
+Process [4]
+0.0591039
+0.0585848
+0.0580633
+0.0575396
+0.0570136
+0.0564854
+0.0559549
+0.0554223
+0.0548874
+0.0543504
+0.0538112
+0.0532699
+0.0527265
+0.052181
+0.0516335
+0.0510839
+0.0505323
+0.0499787
+0.0494231
+0.0488656
+0.0483061
+0.0477448
+0.0471815
+0.0466164
+0.0460495
+0.0454807
+0.0449102
+0.0443378
+0.0437638
+0.043188
+0.0426104
+0.0420312
+0.0414504
+0.0408679
+0.0402838
+0.0396981
+0.0391108
+0.038522
+0.0379317
+0.0373399
+0.0367466
+0.0361518
+0.0355556
+0.0349581
+0.0343591
+0.0337588
+0.0331571
+0.0325542
+0.0319499
+0.0313444
+0.0307377
+0.0301297
+0.0295206
+0.0289103
+0.0282988
+0.0276863
+0.0270726
+0.0264579
+0.0258421
+0.0252253
+0.0246075
+0.0239887
+0.023369
+0.0227484
+0.0221269
+0.0215045
+0.0208812
+0.0202571
+0.0196322
+0.0190066
+0.0183802
+0.0177531
+0.0171252
+0.0164967
+0.0158676
+0.0152378
+0.0146074
+0.0139764
+0.0133449
+0.0127129
+0.0120803
+0.0114473
+0.0108139
+0.01018
+0.00954566
+0.00891099
+0.00827596
+0.0076406
+0.00700495
+0.00636901
+0.00573283
+0.00509642
+0.00445981
+0.00382302
+0.00318608
+0.00254901
+0.00191185
+0.00127461
+0.000637316
+0.
+**************************************** ***********************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: -------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+./implicit on a  named ubuntu with 5 processors, by hjy Fri Jun 10 01:50:56 2022
+Using Petsc Release Version 3.17.1, Apr 28, 2022 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           1.166e+02     1.000   1.166e+02
+Objects:              5.500e+01     1.000   5.500e+01
+Flops:                6.153e+07     1.010   6.106e+07  3.053e+08
+Flops/sec:            5.279e+05     1.010   5.238e+05  2.619e+06
+Memory (bytes):       4.623e+05     1.002   4.617e+05  2.309e+06
+MPI Msg Count:        2.413e+04     1.335   2.171e+04  1.085e+05
+MPI Msg Len (bytes):  2.029e+05     1.313   8.469e+00  9.193e+05
+MPI Reductions:       4.087e+05     1.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 1.1658e+02 100.0%  3.0529e+08 100.0%  1.085e+05 100.0%  8.469e+00      100.0%  4.087e+05 100.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided       1006 1.0 1.1451e+00 1.6 0.00e+00 0.0 8.1e+03 1.2e+01 2.0e+03  1  0  7 11  0   1  0  7 11  0     0
+BuildTwoSidedF      1005 1.0 2.1596e+00 1.2 0.00e+00 0.0 2.4e+04 1.0e+01 2.0e+03  2  0 22 26  0   2  0 22 26  0     0
+VecView                1 1.0 1.2319e-0333.6 0.00e+00 0.0 4.0e+00 8.0e+02 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecMDot            10410 1.0 6.0556e+00 1.1 2.44e+07 1.0 0.0e+00 0.0e+00 2.1e+04  5 40  0  0  5   5 40  0  0  5    20
+VecNorm            11549 1.0 6.5541e+00 1.1 2.33e+06 1.0 0.0e+00 0.0e+00 2.3e+04  5  4  0  0  6   5  4  0  0  6     2
+VecScale           11549 1.0 2.6133e-02 1.3 1.17e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   221
+VecCopy             2139 1.0 3.3396e-03 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              2139 1.0 3.9240e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             2278 1.0 4.1901e-03 1.1 4.60e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   545
+VecMAXPY           11549 1.0 5.1685e-02 1.3 2.67e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 43  0  0  0   0 43  0  0  0  2559
+VecAssemblyBegin    1002 1.0 2.6399e+00 1.2 0.00e+00 0.0 2.4e+04 1.0e+01 4.0e+03  2  0 22 26  1   2  0 22 26  1     0
+VecAssemblyEnd      1002 1.0 3.1720e-0164.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecPointwiseMult   11549 1.0 1.6994e-02 1.5 1.17e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   340
+VecScatterBegin    10549 1.0 5.3014e-01 2.4 0.00e+00 0.0 8.4e+04 8.0e+00 2.0e+00  0  0 78 73  0   0  0 78 73  0     0
+VecScatterEnd      10549 1.0 1.0266e+00 8.8 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0
+VecNormalize       11549 1.0 6.5963e+00 1.1 3.50e+06 1.0 0.0e+00 0.0e+00 2.3e+04  5  6  0  0  6   5  6  0  0  6     3
+MatMult            10549 1.0 1.4239e+00 2.3 5.31e+06 1.0 8.4e+04 8.0e+00 2.0e+00  1  9 78 73  0   1  9 78 73  0    19
+MatAssemblyBegin       3 1.0 5.8505e-03 1.1 0.00e+00 0.0 1.6e+01 1.8e+01 1.2e+01  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd         3 1.0 8.0636e-03 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 1.9e+01  0  0  0  0  0   0  0  0  0  0     0
+SFSetGraph             1 1.0 2.6470e-06 1.6 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFSetUp                1 1.0 1.1576e-03 1.2 0.00e+00 0.0 1.6e+01 4.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFPack             10549 1.0 2.1034e-02 3.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFUnpack           10549 1.0 5.4966e-03 1.6 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSetUp               1 1.0 4.9503e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve            1000 1.0 1.1363e+02 1.0 6.13e+07 1.0 8.4e+04 8.0e+00 4.0e+05 97100 78 73 99  97100 78 73 99     3
+KSPGMRESOrthog     10410 1.0 8.6950e+01 1.0 4.90e+07 1.0 0.0e+00 0.0e+00 3.1e+05 74 80  0  0 75  74 80  0  0 75     3
+PCSetUp                1 1.0 4.9600e-06 1.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply            11549 1.0 3.9972e-02 1.5 1.17e+06 1.0 0.0e+00 0.0e+00 7.0e+00  0  2  0  0  0   0  2  0  0  0   145
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Vector    40             40       101624     0.
+              Matrix     3              3        21364     0.
+           Index Set     2              2         1804     0.
+   Star Forest Graph     3              3         3336     0.
+       Krylov Solver     1              1        18872     0.
+      Preconditioner     1              1          880     0.
+    Distributed Mesh     1              1         5072     0.
+     Discrete System     1              1          968     0.
+           Weak Form     1              1          624     0.
+              Viewer     2              1          848     0.
+========================================================================================================================
+Average time to get PetscTime(): 4.17e-08
+Average time for MPI_Barrier(): 0.000372339
+Average time for zero size MPI_Send(): 0.000106282
+#PETSc Option Table entries:
+-dt 0.001
+-log_view
+-Nodes_Num 500
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-mpich=/home/hjy/Soft/petsc-3.16.6-extlibs/mpich-3.4.2.tar.gz --download-fblaslapack --with-debugging=yes --prefix=/home/hjy/Soft/petsc-3.17.1-opt --download-hypre=/home/hjy/Soft/petsc-3.16.6-extlibs/hypre-2.23.0.tar.gz --download-mumps=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-mumps-6d1470374d32.tar.gz --download-metis=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-metis-c8d2dc1e751e.tar.gz --download-hdf5=/home/hjy/Soft/petsc-3.16.6-extlibs/hdf5-1.12.1.tar.bz2 COPTFLAGS="-O3 -march=native -mtune=native" CXXOPTFLAGS="-O3 -march=native -mtune=native" FOPTFLAGS="-O3 -march=native -mtune=native" --download-scalapack --with-fc=gfortran --with-fortranlib-autodetect=1
+-----------------------------------------
+Libraries compiled on 2022-05-23 03:40:19 on ubuntu 
+Machine characteristics: Linux-5.4.0-110-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/hjy/Soft/petsc-3.17.1-opt
+Using PETSc arch: 
+-----------------------------------------
+
+Using C compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc  -Wall -Wwrite-strings -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -O3 -march=native -mtune=native   
+Using Fortran compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -O3 -march=native -mtune=native    
+-----------------------------------------
+
+Using include paths: -I/home/hjy/Soft/petsc-3.17.1-opt/include
+-----------------------------------------
+
+Using C linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc
+Using Fortran linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90
+Using libraries: -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -lpetsc -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -Wl,-rpath,/home/hjy/lib/hdf5-1.13.1/lib -L/home/hjy/lib/hdf5-1.13.1/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1 -L/home/hjy/Soft/petsc-3.17.1 -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lpthread -lscalapack -lflapack -lfblas -lpthread -lhdf5_hl -lhdf5 -lmetis -lm -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+======> Essential BC at x=0: prescribed temperature.
+======> Essential BC at x=0: prescribed temperature.
+Vec Object: 6 MPI processes
+  type: mpi
+Process [0]
+0.
+0.000531097
+0.00106218
+0.00159323
+0.00212424
+0.0026552
+0.00318607
+0.00371687
+0.00424756
+0.00477813
+0.00530857
+0.00583887
+0.006369
+0.00689897
+0.00742874
+0.00795831
+0.00848766
+0.00901678
+0.00954565
+0.0100743
+0.0106026
+0.0111306
+0.0116584
+0.0121858
+0.0127129
+0.0132396
+0.013766
+0.014292
+0.0148176
+0.0153428
+0.0158676
+0.0163919
+0.0169158
+0.0174392
+0.0179622
+0.0184846
+0.0190066
+0.019528
+0.0200489
+0.0205692
+0.021089
+0.0216082
+0.0221268
+0.0226448
+0.0231622
+0.023679
+0.0241951
+0.0247105
+0.0252253
+0.0257393
+0.0262527
+0.0267653
+0.0272772
+0.0277884
+0.0282988
+0.0288084
+0.0293172
+0.0298253
+0.0303325
+0.0308389
+0.0313444
+0.0318491
+0.0323529
+0.0328558
+0.0333578
+0.0338589
+0.0343591
+0.0348583
+0.0353566
+0.0358539
+0.0363502
+0.0368455
+0.0373398
+0.0378331
+0.0383254
+0.0388166
+0.0393067
+0.0397958
+0.0402837
+0.0407706
+0.0412563
+0.041741
+0.0422244
+0.0427068
+0.0431879
+0.0436679
+0.0441466
+0.0446242
+0.0451005
+0.0455756
+0.0460494
+0.046522
+0.0469933
+0.0474633
+0.047932
+0.0483994
+0.0488655
+0.0493303
+0.0497936
+0.0502557
+0.0507163
+Process [1]
+0.0511755
+0.0516334
+0.0520898
+0.0525448
+0.0529984
+0.0534505
+0.0539011
+0.0543503
+0.054798
+0.0552441
+0.0556888
+0.0561319
+0.0565735
+0.0570136
+0.057452
+0.057889
+0.0583243
+0.058758
+0.0591901
+0.0596206
+0.0600494
+0.0604766
+0.0609022
+0.0613261
+0.0617482
+0.0621687
+0.0625875
+0.0630046
+0.06342
+0.0638336
+0.0642455
+0.0646556
+0.0650639
+0.0654704
+0.0658752
+0.0662781
+0.0666793
+0.0670786
+0.067476
+0.0678716
+0.0682654
+0.0686573
+0.0690473
+0.0694354
+0.0698216
+0.0702059
+0.0705882
+0.0709687
+0.0713471
+0.0717237
+0.0720982
+0.0724708
+0.0728414
+0.07321
+0.0735766
+0.0739412
+0.0743037
+0.0746642
+0.0750227
+0.0753791
+0.0757334
+0.0760857
+0.0764359
+0.076784
+0.0771299
+0.0774738
+0.0778155
+0.0781552
+0.0784926
+0.0788279
+0.0791611
+0.0794921
+0.0798209
+0.0801475
+0.0804719
+0.0807941
+0.0811141
+0.0814319
+0.0817474
+0.0820607
+0.0823717
+0.0826805
+0.082987
+0.0832913
+0.0835933
+0.0838929
+0.0841903
+0.0844854
+0.0847781
+0.0850685
+0.0853566
+0.0856424
+0.0859258
+0.0862068
+0.0864855
+0.0867618
+0.0870357
+0.0873073
+0.0875764
+0.0878432
+Process [2]
+0.0881075
+0.0883695
+0.088629
+0.0888861
+0.0891407
+0.0893929
+0.0896426
+0.0898899
+0.0901347
+0.0903771
+0.090617
+0.0908544
+0.0910893
+0.0913217
+0.0915516
+0.091779
+0.0920038
+0.0922262
+0.092446
+0.0926633
+0.092878
+0.0930902
+0.0932999
+0.093507
+0.0937115
+0.0939135
+0.0941128
+0.0943096
+0.0945039
+0.0946955
+0.0948845
+0.0950709
+0.0952548
+0.095436
+0.0956146
+0.0957905
+0.0959639
+0.0961346
+0.0963027
+0.0964681
+0.0966309
+0.0967911
+0.0969486
+0.0971034
+0.0972556
+0.0974051
+0.0975519
+0.0976961
+0.0978376
+0.0979764
+0.0981125
+0.0982459
+0.0983766
+0.0985047
+0.09863
+0.0987526
+0.0988726
+0.0989898
+0.0991043
+0.0992161
+0.0993251
+0.0994314
+0.0995351
+0.0996359
+0.0997341
+0.0998295
+0.0999222
+0.100012
+0.100099
+0.100184
+0.100266
+0.100344
+0.100421
+0.100494
+0.100565
+0.100633
+0.100698
+0.10076
+0.10082
+0.100877
+0.100931
+0.100982
+0.101031
+0.101077
+0.10112
+0.10116
+0.101198
+0.101232
+0.101264
+0.101294
+0.10132
+0.101344
+0.101364
+0.101383
+0.101398
+0.10141
+0.10142
+0.101427
+0.101431
+0.101433
+Process [3]
+0.101431
+0.101427
+0.10142
+0.10141
+0.101398
+0.101383
+0.101364
+0.101344
+0.10132
+0.101294
+0.101264
+0.101232
+0.101198
+0.10116
+0.10112
+0.101077
+0.101031
+0.100982
+0.100931
+0.100877
+0.10082
+0.10076
+0.100698
+0.100633
+0.100565
+0.100494
+0.100421
+0.100344
+0.100266
+0.100184
+0.100099
+0.100012
+0.0999222
+0.0998295
+0.0997341
+0.099636
+0.0995351
+0.0994315
+0.0993251
+0.0992161
+0.0991043
+0.0989898
+0.0988726
+0.0987526
+0.09863
+0.0985047
+0.0983766
+0.0982459
+0.0981125
+0.0979764
+0.0978376
+0.0976961
+0.0975519
+0.0974051
+0.0972556
+0.0971034
+0.0969486
+0.0967911
+0.0966309
+0.0964681
+0.0963027
+0.0961346
+0.0959639
+0.0957906
+0.0956146
+0.095436
+0.0952548
+0.095071
+0.0948845
+0.0946955
+0.0945039
+0.0943097
+0.0941128
+0.0939135
+0.0937115
+0.093507
+0.0932999
+0.0930902
+0.092878
+0.0926633
+0.092446
+0.0922262
+0.0920038
+0.091779
+0.0915516
+0.0913217
+0.0910893
+0.0908544
+0.090617
+0.0903771
+0.0901348
+0.0898899
+0.0896427
+0.0893929
+0.0891407
+0.0888861
+0.088629
+0.0883695
+0.0881076
+0.0878432
+Process [4]
+0.0875765
+0.0873073
+0.0870358
+0.0867618
+0.0864855
+0.0862068
+0.0859258
+0.0856424
+0.0853566
+0.0850685
+0.0847781
+0.0844854
+0.0841903
+0.0838929
+0.0835933
+0.0832913
+0.0829871
+0.0826805
+0.0823718
+0.0820607
+0.0817474
+0.0814319
+0.0811141
+0.0807941
+0.0804719
+0.0801475
+0.0798209
+0.0794921
+0.0791611
+0.0788279
+0.0784926
+0.0781552
+0.0778156
+0.0774738
+0.07713
+0.076784
+0.0764359
+0.0760857
+0.0757335
+0.0753791
+0.0750227
+0.0746642
+0.0743037
+0.0739412
+0.0735766
+0.07321
+0.0728414
+0.0724708
+0.0720982
+0.0717237
+0.0713472
+0.0709687
+0.0705883
+0.0702059
+0.0698216
+0.0694354
+0.0690473
+0.0686573
+0.0682654
+0.0678717
+0.0674761
+0.0670786
+0.0666793
+0.0662782
+0.0658752
+0.0654705
+0.0650639
+0.0646556
+0.0642455
+0.0638336
+0.06342
+0.0630046
+0.0625876
+0.0621688
+0.0617483
+0.0613261
+0.0609022
+0.0604766
+0.0600494
+0.0596206
+0.0591901
+0.058758
+0.0583243
+0.057889
+0.0574521
+0.0570136
+0.0565735
+0.056132
+0.0556888
+0.0552442
+0.054798
+0.0543503
+0.0539011
+0.0534505
+0.0529984
+0.0525448
+0.0520898
+0.0516334
+0.0511756
+0.0507163
+Process [5]
+0.0502557
+0.0497937
+0.0493303
+0.0488655
+0.0483995
+0.0479321
+0.0474633
+0.0469933
+0.046522
+0.0460494
+0.0455756
+0.0451005
+0.0446242
+0.0441466
+0.0436679
+0.0431879
+0.0427068
+0.0422244
+0.041741
+0.0412564
+0.0407706
+0.0402837
+0.0397958
+0.0393067
+0.0388166
+0.0383254
+0.0378331
+0.0373398
+0.0368455
+0.0363502
+0.0358539
+0.0353566
+0.0348583
+0.0343591
+0.0338589
+0.0333578
+0.0328558
+0.0323529
+0.0318491
+0.0313444
+0.0308389
+0.0303325
+0.0298253
+0.0293173
+0.0288084
+0.0282988
+0.0277884
+0.0272772
+0.0267653
+0.0262527
+0.0257393
+0.0252253
+0.0247105
+0.0241951
+0.023679
+0.0231622
+0.0226448
+0.0221268
+0.0216082
+0.021089
+0.0205692
+0.0200489
+0.019528
+0.0190066
+0.0184846
+0.0179622
+0.0174392
+0.0169158
+0.0163919
+0.0158676
+0.0153428
+0.0148176
+0.014292
+0.013766
+0.0132396
+0.0127129
+0.0121858
+0.0116584
+0.0111306
+0.0106026
+0.0100743
+0.00954565
+0.00901678
+0.00848766
+0.00795831
+0.00742874
+0.00689897
+0.00636901
+0.00583887
+0.00530857
+0.00477813
+0.00424756
+0.00371687
+0.00318608
+0.0026552
+0.00212424
+0.00159323
+0.00106218
+0.000531098
+0.
+**************************************** ***********************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: -------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+./implicit on a  named ubuntu with 6 processors, by hjy Fri Jun 10 01:55:18 2022
+Using Petsc Release Version 3.17.1, Apr 28, 2022 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           1.944e+02     1.000   1.944e+02
+Objects:              5.500e+01     1.000   5.500e+01
+Flops:                8.055e+07     1.010   7.990e+07  4.794e+08
+Flops/sec:            4.143e+05     1.010   4.109e+05  2.466e+06
+Memory (bytes):       4.637e+05     1.002   4.630e+05  2.778e+06
+MPI Msg Count:        2.888e+04     1.315   2.658e+04  1.595e+05
+MPI Msg Len (bytes):  2.434e+05     1.294   8.473e+00  1.351e+06
+MPI Reductions:       5.231e+05     1.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 1.9443e+02 100.0%  4.7940e+08 100.0%  1.595e+05 100.0%  8.473e+00      100.0%  5.231e+05 100.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided       1006 1.0 2.1400e+00 2.1 0.00e+00 0.0 1.0e+04 1.2e+01 2.0e+03  1  0  6  9  0   1  0  6  9  0     0
+BuildTwoSidedF      1005 1.0 3.4179e+00 1.5 0.00e+00 0.0 3.0e+04 1.0e+01 2.0e+03  1  0 19 23  0   1  0 19 23  0     0
+VecView                1 1.0 1.3551e-0337.0 0.00e+00 0.0 5.0e+00 8.0e+02 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecMDot            12734 1.0 9.5874e+00 1.1 3.26e+07 1.0 0.0e+00 0.0e+00 2.5e+04  5 40  0  0  5   5 40  0  0  5    20
+VecNorm            13923 1.0 9.9624e+00 1.1 2.81e+06 1.0 0.0e+00 0.0e+00 2.8e+04  5  3  0  0  5   5  3  0  0  5     2
+VecScale           13923 1.0 3.3018e-02 1.1 1.41e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   253
+VecCopy             2189 1.0 3.7840e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              2189 1.0 4.6638e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             2378 1.0 5.9519e-03 1.3 4.80e+05 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   480
+VecMAXPY           13923 1.0 8.2260e-02 1.2 3.53e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 44  0  0  0   0 44  0  0  0  2556
+VecAssemblyBegin    1002 1.0 4.0856e+00 1.4 0.00e+00 0.0 3.0e+04 1.0e+01 4.0e+03  2  0 19 23  1   2  0 19 23  1     0
+VecAssemblyEnd      1002 1.0 1.7519e+00297.9 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecPointwiseMult   13923 1.0 2.2948e-02 1.3 1.41e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  2  0  0  0   0  2  0  0  0   365
+VecScatterBegin    12923 1.0 6.4032e-01 1.6 0.00e+00 0.0 1.3e+05 8.0e+00 2.0e+00  0  0 81 77  0   0  0 81 77  0     0
+VecScatterEnd      12923 1.0 1.3803e+00 5.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0
+VecNormalize       13923 1.0 1.0030e+01 1.1 4.22e+06 1.0 0.0e+00 0.0e+00 2.8e+04  5  5  0  0  5   5  5  0  0  5     3
+MatMult            12923 1.0 2.1195e+00 2.5 6.50e+06 1.0 1.3e+05 8.0e+00 2.0e+00  1  8 81 77  0   1  8 81 77  0    18
+MatAssemblyBegin       3 1.0 6.2771e-03 1.1 0.00e+00 0.0 2.0e+01 1.8e+01 1.2e+01  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd         3 1.0 6.6009e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 1.9e+01  0  0  0  0  0   0  0  0  0  0     0
+SFSetGraph             1 1.0 3.7980e-06 2.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFSetUp                1 1.0 9.1179e-04 1.0 0.00e+00 0.0 2.0e+01 4.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFPack             12923 1.0 2.0577e-02 1.9 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SFUnpack           12923 1.0 6.0287e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSetUp               1 1.0 6.8648e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve            1000 1.0 1.9075e+02 1.0 8.03e+07 1.0 1.3e+05 8.0e+00 5.2e+05 98100 81 77 99  98100 81 77 99     3
+KSPGMRESOrthog     12734 1.0 1.4896e+02 1.0 6.54e+07 1.0 0.0e+00 0.0e+00 4.0e+05 76 81  0  0 77  76 81  0  0 77     3
+PCSetUp                1 1.0 5.1370e-06 1.7 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCApply            13923 1.0 5.0757e-02 1.3 1.41e+06 1.0 0.0e+00 0.0e+00 7.0e+00  0  2  0  0  0   0  2  0  0  0   165
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Vector    40             40       101624     0.
+              Matrix     3              3        21364     0.
+           Index Set     2              2         1804     0.
+   Star Forest Graph     3              3         3336     0.
+       Krylov Solver     1              1        18872     0.
+      Preconditioner     1              1          880     0.
+    Distributed Mesh     1              1         5072     0.
+     Discrete System     1              1          968     0.
+           Weak Form     1              1          624     0.
+              Viewer     2              1          848     0.
+========================================================================================================================
+Average time to get PetscTime(): 9.76e-08
+Average time for MPI_Barrier(): 0.000425572
+Average time for zero size MPI_Send(): 0.000125721
+#PETSc Option Table entries:
+-dt 0.001
+-log_view
+-Nodes_Num 600
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --download-mpich=/home/hjy/Soft/petsc-3.16.6-extlibs/mpich-3.4.2.tar.gz --download-fblaslapack --with-debugging=yes --prefix=/home/hjy/Soft/petsc-3.17.1-opt --download-hypre=/home/hjy/Soft/petsc-3.16.6-extlibs/hypre-2.23.0.tar.gz --download-mumps=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-mumps-6d1470374d32.tar.gz --download-metis=/home/hjy/Soft/petsc-3.16.6-extlibs/petsc-pkg-metis-c8d2dc1e751e.tar.gz --download-hdf5=/home/hjy/Soft/petsc-3.16.6-extlibs/hdf5-1.12.1.tar.bz2 COPTFLAGS="-O3 -march=native -mtune=native" CXXOPTFLAGS="-O3 -march=native -mtune=native" FOPTFLAGS="-O3 -march=native -mtune=native" --download-scalapack --with-fc=gfortran --with-fortranlib-autodetect=1
+-----------------------------------------
+Libraries compiled on 2022-05-23 03:40:19 on ubuntu 
+Machine characteristics: Linux-5.4.0-110-generic-x86_64-with-Ubuntu-18.04-bionic
+Using PETSc directory: /home/hjy/Soft/petsc-3.17.1-opt
+Using PETSc arch: 
+-----------------------------------------
+
+Using C compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc  -Wall -Wwrite-strings -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -O3 -march=native -mtune=native   
+Using Fortran compiler: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -O3 -march=native -mtune=native    
+-----------------------------------------
+
+Using include paths: -I/home/hjy/Soft/petsc-3.17.1-opt/include
+-----------------------------------------
+
+Using C linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpicc
+Using Fortran linker: /home/hjy/Soft/petsc-3.17.1-opt/bin/mpif90
+Using libraries: -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -lpetsc -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1-opt/lib -L/home/hjy/Soft/petsc-3.17.1-opt/lib -Wl,-rpath,/home/hjy/lib/hdf5-1.13.1/lib -L/home/hjy/lib/hdf5-1.13.1/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7 -Wl,-rpath,/home/hjy/Soft/petsc-3.17.1 -L/home/hjy/Soft/petsc-3.17.1 -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lpthread -lscalapack -lflapack -lfblas -lpthread -lhdf5_hl -lhdf5 -lmetis -lm -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -ldl
+-----------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was compiled with a debugging option.      #
+      #   To get timing results run ./configure                #
+      #   using --with-debugging=no, the performance will      #
+      #   be generally two or three times faster.              #
+      #                                                        #
+      ##########################################################
+
+

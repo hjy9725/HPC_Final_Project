@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.4.21)  9 JUN 2022 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.4.21)  10 JUN 2022 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -86,7 +86,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@enLab=\toks18
 \@sep=\skip49
 \@@sep=\skip50
-
+ (document.spl)
 (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
@@ -663,16 +663,38 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
+(C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.st
+y
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip145
+\subfigcapskip=\skip146
+\subfigcaptopadj=\dimen182
+\subfigbottomskip=\skip147
+\subfigcapmargin=\dimen183
+\subfiglabelskip=\skip148
+\c@subfigure=\count309
+\c@lofdepth=\count310
+\c@subtable=\count311
+\c@lotdepth=\count312
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/subfigure\subfigure.cf
+g)
+\subfig@top=\skip149
+\subfig@bottom=\skip150
+)
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
-(Font)                  U/stmry/b/n --> U/stmry/m/n on input line 24.
-\c@defi=\count309
-\c@lemma=\count310
-\c@proposition=\count311
-\c@remark=\count312
+(Font)                  U/stmry/b/n --> U/stmry/m/n on input line 25.
+\c@defi=\count313
+\c@lemma=\count314
+\c@proposition=\count315
+\c@remark=\count316
  (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
-)
-(C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+) (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
@@ -681,96 +703,96 @@ File: UTF8.chr 2021/10/16 4.8.5
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen182
+\scratchcounter=\count317
+\scratchdimen=\dimen184
 \scratchbox=\box71
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen183
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen185
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks38
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -816,45 +838,45 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 52
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 53
 .
 (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/ctex/fd\c70rm.fd
 File: c70rm.fd 2021/12/12 v2.5.8 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 52.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+quanjiao) on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 58.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 58.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 59.
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
-8.
+9.
 
 (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 58.
+(Font)              size <10.95> substituted on input line 59.
 
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 58
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 59
 .
 (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 58.
+(Font)              size <10.95> substituted on input line 59.
 
 
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
@@ -863,8 +885,8 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64     	\rho
-               c \frac{\partial u}{\partial t}-\kappa \frac{\partial^{2} u}{...
+l.65 	\rho
+           c \frac{\partial u}{\partial t}-\kappa \frac{\partial^{2} u}{\par...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -872,16 +894,16 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.64     	\rho
-               c \frac{\partial u}{\partial t}-\kappa \frac{\partial^{2} u}{...
+l.65 	\rho
+           c \frac{\partial u}{\partial t}-\kappa \frac{\partial^{2} u}{\par...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68     \end{aligned}
-                      
+l.69 \end{aligned}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -891,12 +913,12 @@ my insertion and my current dilemma will both disappear.
 <./figures/mesh.png, id=45, 884.30376pt x 700.6175pt>
 File: ./figures/mesh.png Graphic file (type png)
 <use ./figures/mesh.png>
-Package pdftex.def Info: ./figures/mesh.png  used on input line 75.
+Package pdftex.def Info: ./figures/mesh.png  used on input line 76.
 (pdftex.def)             Requested size: 884.3016pt x 700.61578pt.
-<./figures/compute_molecules.png, id=53, 1244.65pt x 336.25626pt>
+<./figures/compute_molecules.png, id=52, 1244.65pt x 336.25626pt>
 File: ./figures/compute_molecules.png Graphic file (type png)
 <use ./figures/compute_molecules.png>
-Package pdftex.def Info: ./figures/compute_molecules.png  used on input line 86
+Package pdftex.def Info: ./figures/compute_molecules.png  used on input line 87
 .
 (pdftex.def)             Requested size: 1244.64696pt x 336.25543pt.
 
@@ -915,37 +937,251 @@ eX and DVIPDFMx (CTEX)
 {C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{UGBK.
 sfd}{Unicode.sfd}) [1
 
- <./figures/mesh.png>] [2 <./figures/compute_molecules.png>] (document.aux
+ <./figures/mesh.png>]
+<./figures/matrix_coefficient.png, id=124, 914.41624pt x 524.96124pt>
+File: ./figures/matrix_coefficient.png Graphic file (type png)
+<use ./figures/matrix_coefficient.png>
+Package pdftex.def Info: ./figures/matrix_coefficient.png  used on input line 1
+15.
+(pdftex.def)             Requested size: 914.41402pt x 524.95996pt.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.52812> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 118.
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
 
-)
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <7.52812> not available
+(Font)              size <8> substituted on input line 118.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
+(Font)              size <8> substituted on input line 118.
+
+<./figures/matrix_each_value.png, id=125, 1096.095pt x 765.86125pt>
+File: ./figures/matrix_each_value.png Graphic file (type png)
+<use ./figures/matrix_each_value.png>
+Package pdftex.def Info: ./figures/matrix_each_value.png  used on input line 12
+5.
+(pdftex.def)             Requested size: 1096.09233pt x 765.85938pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/Explicit_Euler.png, id=127, 984.67876pt x 649.42625pt>
+File: ./figures/Explicit_Euler.png Graphic file (type png)
+<use ./figures/Explicit_Euler.png>
+Package pdftex.def Info: ./figures/Explicit_Euler.png  used on input line 137.
+(pdftex.def)             Requested size: 984.67635pt x 649.42467pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/Implicit_Euler.png, id=128, 1561.835pt x 1118.1775pt>
+File: ./figures/Implicit_Euler.png Graphic file (type png)
+<use ./figures/Implicit_Euler.png>
+Package pdftex.def Info: ./figures/Implicit_Euler.png  used on input line 147.
+(pdftex.def)             Requested size: 1561.8312pt x 1118.17477pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./figures/compute_molecules.png> <./figures/matrix_coefficient.png>]
+[3 <./figures/matrix_each_value.png> <./figures/Explicit_Euler.png> <./figures/
+Implicit_Euler.png>]
+<./figures/Explicit_Stablity.png, id=156, 1401.235pt x 818.05624pt>
+File: ./figures/Explicit_Stablity.png Graphic file (type png)
+<use ./figures/Explicit_Stablity.png>
+Package pdftex.def Info: ./figures/Explicit_Stablity.png  used on input line 17
+3.
+(pdftex.def)             Requested size: 1401.2316pt x 818.05424pt.
+<./figures/Explicit_Stablity_Compare.png, id=157, 1412.27625pt x 819.06pt>
+File: ./figures/Explicit_Stablity_Compare.png Graphic file (type png)
+<use ./figures/Explicit_Stablity_Compare.png>
+Package pdftex.def Info: ./figures/Explicit_Stablity_Compare.png  used on input
+ line 174.
+(pdftex.def)             Requested size: 1412.27281pt x 819.058pt.
+ [4
+
+ <./figures/Explicit_Stablity.png> <./figures/Explicit_Stablity_Compare.png>]
+<./figures/Implicit_Stablity.png, id=171, 1201.48875pt x 325.215pt>
+File: ./figures/Implicit_Stablity.png Graphic file (type png)
+<use ./figures/Implicit_Stablity.png>
+Package pdftex.def Info: ./figures/Implicit_Stablity.png  used on input line 19
+1.
+(pdftex.def)             Requested size: 1201.48584pt x 325.2142pt.
+<./figures/Implicit_Euler_Stability.png, id=172, 1415.2875pt x 848.16875pt>
+File: ./figures/Implicit_Euler_Stability.png Graphic file (type png)
+<use ./figures/Implicit_Euler_Stability.png>
+Package pdftex.def Info: ./figures/Implicit_Euler_Stability.png  used on input 
+line 202.
+(pdftex.def)             Requested size: 1415.28406pt x 848.16667pt.
+ [5
+
+ <./figures/Implicit_Stablity.png> <./figures/Implicit_Euler_Stability.png>]
+<./figures/restart.png, id=179, 1984.41376pt x 1174.3875pt>
+File: ./figures/restart.png Graphic file (type png)
+<use ./figures/restart.png>
+Package pdftex.def Info: ./figures/restart.png  used on input line 216.
+(pdftex.def)             Requested size: 1984.40894pt x 1174.38464pt.
+<./figures/restart1.png, id=180, 1548.78625pt x 1203.49625pt>
+File: ./figures/restart1.png Graphic file (type png)
+<use ./figures/restart1.png>
+Package pdftex.def Info: ./figures/restart1.png  used on input line 227.
+(pdftex.def)             Requested size: 1548.78249pt x 1203.49332pt.
+ [6
+
+ <./figures/restart.png> <./figures/restart1.png>]
+<./figures/ierr.png, id=188, 1930.21124pt x 222.8325pt>
+File: ./figures/ierr.png Graphic file (type png)
+<use ./figures/ierr.png>
+Package pdftex.def Info: ./figures/ierr.png  used on input line 246.
+(pdftex.def)             Requested size: 1930.20656pt x 222.83195pt.
+<./figures/petsccall.png, id=189, 914.41624pt x 189.70876pt>
+File: ./figures/petsccall.png Graphic file (type png)
+<use ./figures/petsccall.png>
+Package pdftex.def Info: ./figures/petsccall.png  used on input line 247.
+(pdftex.def)             Requested size: 914.41402pt x 189.70828pt.
+
+Overfull \hbox (39.23325pt too wide) in paragraph at lines 245--249
+ [] 
+ []
+
+<./figures/warning.png, id=190, 1299.85625pt x 889.3225pt>
+File: ./figures/warning.png Graphic file (type png)
+<use ./figures/warning.png>
+Package pdftex.def Info: ./figures/warning.png  used on input line 257.
+(pdftex.def)             Requested size: 1299.85309pt x 889.32031pt.
+<./figures/assert.png, id=191, 1002.74625pt x 224.84pt>
+File: ./figures/assert.png Graphic file (type png)
+<use ./figures/assert.png>
+Package pdftex.def Info: ./figures/assert.png  used on input line 258.
+(pdftex.def)             Requested size: 1002.7438pt x 224.83945pt.
+
+Overfull \hbox (56.32057pt too wide) in paragraph at lines 256--260
+ [] 
+ []
+
+[7
+
+ <./figures/ierr.png> <./figures/petsccall.png> <./figures/warning.png> <./figu
+res/assert.png>]
+<./figures/compile.png, id=200, 1723.43875pt x 408.52625pt>
+File: ./figures/compile.png Graphic file (type png)
+<use ./figures/compile.png>
+Package pdftex.def Info: ./figures/compile.png  used on input line 271.
+(pdftex.def)             Requested size: 1723.43456pt x 408.52525pt.
+
+Overfull \hbox (26.55959pt too wide) in paragraph at lines 270--273
+ [] 
+ []
+
+<./figures/valgrind1.png, id=202, 1502.61375pt x 223.83624pt>
+File: ./figures/valgrind1.png Graphic file (type png)
+<use ./figures/valgrind1.png>
+Package pdftex.def Info: ./figures/valgrind1.png  used on input line 283.
+(pdftex.def)             Requested size: 1502.61009pt x 223.8357pt.
+<./figures/valgrind2.png, id=203, 1167.36125pt x 554.07pt>
+File: ./figures/valgrind2.png Graphic file (type png)
+<use ./figures/valgrind2.png>
+Package pdftex.def Info: ./figures/valgrind2.png  used on input line 285.
+(pdftex.def)             Requested size: 1167.35841pt x 554.06865pt.
+
+Overfull \hbox (14.76576pt too wide) in paragraph at lines 282--287
+ [] 
+ []
+
+<./figures/callgrind.png, id=205, 2011.515pt x 832.10875pt>
+File: ./figures/callgrind.png Graphic file (type png)
+<use ./figures/callgrind.png>
+Package pdftex.def Info: ./figures/callgrind.png  used on input line 296.
+(pdftex.def)             Requested size: 2011.5101pt x 832.10672pt.
+
+Overfull \hbox (248.04082pt too wide) in paragraph at lines 295--298
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/callgrind1.png, id=206, 2020.54875pt x 554.07pt>
+File: ./figures/callgrind1.png Graphic file (type png)
+<use ./figures/callgrind1.png>
+Package pdftex.def Info: ./figures/callgrind1.png  used on input line 306.
+(pdftex.def)             Requested size: 2020.54384pt x 554.06865pt.
+
+Overfull \hbox (251.20268pt too wide) in paragraph at lines 305--308
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
+
+ <./figures/compile.png> <./figures/valgrind1.png> <./figures/valgrind2.png>] [
+9 <./figures/callgrind.png> <./figures/callgrind1.png>]
+<./figures/visualization.png, id=220, 524.96124pt x 459.7175pt>
+File: ./figures/visualization.png Graphic file (type png)
+<use ./figures/visualization.png>
+Package pdftex.def Info: ./figures/visualization.png  used on input line 321.
+(pdftex.def)             Requested size: 524.95996pt x 459.71637pt.
+ [10
+
+ <./figures/visualization.png>]
+<./figures/dx_coff.png, id=225, 1033.8625pt x 619.31375pt>
+File: ./figures/dx_coff.png Graphic file (type png)
+<use ./figures/dx_coff.png>
+Package pdftex.def Info: ./figures/dx_coff.png  used on input line 337.
+(pdftex.def)             Requested size: 1033.85999pt x 619.31224pt.
+<./figures/dt_coff.png, id=226, 1073.00874pt x 621.32124pt>
+File: ./figures/dt_coff.png Graphic file (type png)
+<use ./figures/dt_coff.png>
+Package pdftex.def Info: ./figures/dt_coff.png  used on input line 346.
+(pdftex.def)             Requested size: 1073.00612pt x 621.31973pt.
+ [11
+
+ <./figures/dx_coff.png> <./figures/dt_coff.png>]
+<./figures/strong_ex.png, id=232, 506.89375pt x 674.52pt>
+File: ./figures/strong_ex.png Graphic file (type png)
+<use ./figures/strong_ex.png>
+Package pdftex.def Info: ./figures/strong_ex.png  used on input line 368.
+(pdftex.def)             Requested size: 506.89252pt x 674.51836pt.
+<./figures/strong_im.png, id=233, 510.90875pt x 667.49374pt>
+File: ./figures/strong_im.png Graphic file (type png)
+<use ./figures/strong_im.png>
+Package pdftex.def Info: ./figures/strong_im.png  used on input line 369.
+(pdftex.def)             Requested size: 510.9075pt x 667.49213pt.
+<./figures/week.png, id=235, 900.36375pt x 723.70375pt>
+File: ./figures/week.png Graphic file (type png)
+<use ./figures/week.png>
+Package pdftex.def Info: ./figures/week.png  used on input line 381.
+(pdftex.def)             Requested size: 900.36156pt x 723.70198pt.
+<./figures/pc.png, id=236, 429.605pt x 200.75pt>
+File: ./figures/pc.png Graphic file (type png)
+<use ./figures/pc.png>
+Package pdftex.def Info: ./figures/pc.png  used on input line 393.
+(pdftex.def)             Requested size: 429.60394pt x 200.7495pt.
+ [12
+
+ <./figures/strong_ex.png> <./figures/strong_im.png> <./figures/week.png>] [13 
+<./figures/pc.png>] (document.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.41063pt have occurred.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+(Font)              up to 0.47188pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 11576 strings out of 480575
- 199351 string characters out of 2898075
- 495615 words of memory out of 3000000
- 28962 multiletter control sequences out of 15000+600000
- 443267 words of font info for 175 fonts, out of 8000000 for 9000
+ 12449 strings out of 480575
+ 214628 string characters out of 2898075
+ 497463 words of memory out of 3000000
+ 29743 multiletter control sequences out of 15000+600000
+ 457529 words of font info for 229 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,15n,78p,717b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,16n,78p,717b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/s
 imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
-/Fonts/simkai.ttf><C:/windows/Fonts/simkai.ttf><C:/windows/Fonts/simkai.ttf><C:
+/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:
 /windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun
 .ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
 s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
 ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
-<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sim
-sun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
+<C:/windows/Fonts/simkai.ttf><C:/windows/Fonts/simkai.ttf><C:/windows/Fonts/sim
+kai.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
 onts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
 indows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.t
 tc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/
@@ -958,19 +1194,25 @@ dows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc
 ><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/si
 msun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/
 Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmti7.pfb>
-Output written on document.pdf (2 pages, 516023 bytes).
+windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.
+ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts
+/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windo
+ws/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><
+C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sims
+un.ttc><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on document.pdf (13 pages, 2701948 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
+ 519 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 

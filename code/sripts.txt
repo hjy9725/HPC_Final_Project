@@ -1,0 +1,23 @@
+mpirun -np 1 ./implicit  -Nodes_Num 1000 -dt 0.01 \
+             -ksp_type gmres -pc_type jacobi \
+             -log_view \
+             >> pc_implicit.txt 2>&1
+
+mpirun -np 1 ./implicit  -Nodes_Num 1000 -dt 0.01 \
+             -ksp_type cg -pc_type jacobi \
+             -log_view \
+             >> pc_implicit.txt 2>&1
+
+mpirun -np 1 ./implicit  -Nodes_Num 1000 -dt 0.01 \
+             -ksp_type gmres -pc_type additive \
+             -log_view \
+             >> pc_implicit.txt 2>&1
+
+mpirun -np 1 ./implicit  -Nodes_Num 1000 -dt 0.01 \
+             -ksp_type cg -pc_type additive \
+             -log_view \
+             >> pc_implicit.txt 2>&1
+
+mpirun -np 1 ./implicit  -Nodes_Num 1000 -dt 0.01 \
+             -ksp_type preonly -pc_type lu \
+             -pc_factor_mat_solver_type mumps

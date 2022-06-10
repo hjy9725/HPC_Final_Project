@@ -3,23 +3,67 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 解一维热方程的示意网格，实心方块代表已知位置，空心的则代表用有限差分近似的位置}}{1}{}\protected@file@percent }
 \newlabel{fig:illustration-mesh}{{1}{1}}
-\bibcite{ref1}{{1}{}{{}}{{}}}
-\bibcite{ref2}{{2}{}{{}}{{}}}
-\providecommand\NAT@force@numbers{}\NAT@force@numbers
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 关于有限差分的计算子，左边是Explicit Euler，右边是Implicit Euler}}{2}{}\protected@file@percent }
 \newlabel{fig:illustration-molecules}{{2}{2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Code development}{2}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Codes for explicit Euler and implicit Euler methods}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}The stability property}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}The restart facility using HDF5}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Defensive manner}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Compiling}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Makefile or CMake}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Profiling analysis}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Visualization utility}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Code testing}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Method stability}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Manufactured solution method}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Parallelism}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation and Verification}{2}{}\protected@file@percent }
-\gdef \@abspage@last{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces $ \alpha $ , $ \beta $ 以及热源初始条件的设置}}{2}{}\protected@file@percent }
+\newlabel{fig:illustration-matrix_coefficient}{{3}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces $ Matrix\_A $ 中的各个元素的值的设置}}{3}{}\protected@file@percent }
+\newlabel{fig:illustration-matrix_each_value}{{4}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces $ Explicit\_Euler $ $ Codes $}}{3}{}\protected@file@percent }
+\newlabel{fig:illustration-Explicit_Euler}{{5}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces $ Implicit\_Euler $ $ Codes $}}{3}{}\protected@file@percent }
+\newlabel{fig:illustration-Implicit_Euler}{{6}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}The stability property and comparison with exact solution}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Explicit stability}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 显式欧拉迭代法的稳定性分析，$\le $ 0.005稳定}}{4}{}\protected@file@percent }
+\newlabel{fig:illustration-Explicit_Stablity}{{7}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Implicit stability}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 隐式欧拉迭代法的稳定性分析，无条件稳定}}{5}{}\protected@file@percent }
+\newlabel{fig:illustration-Implicit_Stablity}{{8}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 隐式欧拉迭代法的不同时间步长对比，可以看出0.05时即可达到较好精度}}{5}{}\protected@file@percent }
+\newlabel{fig:illustration-Implicit_Euler_Stability}{{9}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}The restart facility using HDF5}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces PETsC提供的HDF5并行重启示例程序}}{6}{}\protected@file@percent }
+\newlabel{fig:illustration-restart}{{10}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 具体代码细节，根据输入的PetscBool来判别是否进行断点重启运算}}{6}{}\protected@file@percent }
+\newlabel{fig:illustration-restart1}{{11}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Defensive manner}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 使用ierr来侦测错误 , 使用PetscCall来找到出错的地方}}{7}{}\protected@file@percent }
+\newlabel{fig:illustration-ierr}{{12}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 使用-Wall来找到提示警告的地方 , 使用assert来找到变量异常的地方}}{7}{}\protected@file@percent }
+\newlabel{fig:illustration-warning}{{13}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Compiling}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces 使用PETsC里面自带的tutorial包含的makefile，方便快捷}}{8}{}\protected@file@percent }
+\newlabel{fig:illustration-compile}{{14}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Profiling analysis}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces 使用valgrind进行Profiling，寻找性能瓶颈，提高运行效率}}{8}{}\protected@file@percent }
+\newlabel{fig:illustration-profiling}{{15}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces 使用kcachegrind画出分析可视图：隐式}}{9}{}\protected@file@percent }
+\newlabel{fig:illustration-callgrind}{{16}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces 使用kcachegrind画出分析可视图：显式}}{9}{}\protected@file@percent }
+\newlabel{fig:illustration-callgrind1}{{17}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Visualization utility}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces 使用包含vtk库的vedo工具包，可视化热量分布}}{10}{}\protected@file@percent }
+\newlabel{fig:illustration-visualization}{{18}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Code testing}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Manufactured solution method}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces 确定dx的幂次，这里取1.8457}}{11}{}\protected@file@percent }
+\newlabel{fig:illustration-dx_coff}{{19}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces 确定dt的幂次，这里取0.9391}}{11}{}\protected@file@percent }
+\newlabel{fig:illustration-dt_coff}{{20}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Parallelism}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Strong scaling analysis}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces 强可扩展运行时间不减反增}}{12}{}\protected@file@percent }
+\newlabel{fig:illustration-strong}{{21}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Weak scaling analysis}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces 弱可扩展运行时间不减反增，而且由于问题规模比较小，$ Nodes\_Num $节点数的增多并未对时间有显著影响}}{12}{}\protected@file@percent }
+\newlabel{fig:illustration-week}{{22}{12}}
+\bibcite{ref1}{{1}{}{{}}{{}}}
+\bibcite{ref2}{{2}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}PC options}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces 达到同样误差精度，lu分解速度最快}}{13}{}\protected@file@percent }
+\newlabel{fig:illustration-pc}{{23}{13}}
+\gdef \@abspage@last{13}
